@@ -30,7 +30,7 @@ const Links = () => {
           Mail <FiMail size={30} />
         </>
       ),
-      href: "/contact",
+      href: "#contact",
     },
   ];
 

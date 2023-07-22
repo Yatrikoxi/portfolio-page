@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className='hero h-screen w-full bg-gradient-to-b from-black via-black to-cyan-950 '>
       <div className=' max-w-screen-lg mx-auto flex flex-col md:flex-row items-center justify-center h-full px-4 md:gap-8'>
-        <div className='flex flex-col justify-end pb-40 md:justify-center h-full md:pb-0'>
+        <div className='flex flex-col justify-end pb-40  md:justify-center h-full md:pb-0'>
           <p className='text-gray-500'>(začínajicí)</p>
           <h1 className='text-4xl sm:text-5xl md:text-6xl lg:text-7x font-bold text-gray-100'>
             F<span className='text-cyan-300'>E</span> developer

@@ -9,10 +9,6 @@ const About = () => {
             width='300'
             height='180'
             src='https://www.youtube.com/embed/W0kZhsg0THY'
-            title='YouTube video player'
-            frameBorder='0'
-            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-            allowFullScreen
           ></iframe>
         </>
       ),
@@ -26,10 +22,6 @@ const About = () => {
             width='300'
             height='180'
             src='https://www.youtube.com/embed/jOgUD5Ijw1Q'
-            title='YouTube video player'
-            frameBorder='0'
-            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-            allowFullScreen
           ></iframe>
         </>
       ),
@@ -43,10 +35,6 @@ const About = () => {
             width='300'
             height='180'
             src='https://www.youtube.com/embed/NEzXMxuCmaA'
-            title='YouTube video player'
-            frameBorder='0'
-            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-            allowFullScreen
           ></iframe>
         </>
       ),
@@ -57,17 +45,17 @@ const About = () => {
     <>
       <div className='about h-screen w-full bg-gradient-to-t from-black via-black to-cyan-950'>
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col w-full h-full justify-center'>
-          <div className='pb-8 text-gray-100'>
+          <div className='pb-8 text-gray-300'>
             <h2 className='text-gray-100 text-5xl font-bold inline border-b-2 border-cyan-400'>
               O mně
             </h2>
-            <p className='text-md md:text-xl mt-20'>
+            <p className='text-md md:text-lg mt-20 tracking-wider'>
               Mé jméno je Tomáš Novák a do roku 2023 jsem se živil jako učitel
               hry na bicí nástroje v <br />
               ZUŠ Vysoké Mýto a aktivní muzikant. Díky projektům{" "}
               <a
                 href='https://www.zusmyto.cz/projekty/'
-                className='text-cyan-300 hover:underline cursor-pointer'
+                className='text-cyan-400 hover:underline cursor-pointer'
                 target='_blank'
               >
                 Erasmus+
@@ -79,7 +67,7 @@ const About = () => {
               vlastní hudební projekty.
               <br />
               <a
-                className='text-cyan-300 cursor-pointer hover:underline'
+                className='text-cyan-400 cursor-pointer hover:underline'
                 href='https://www.bardolinoband.com/'
                 target='_blank'
               >
@@ -87,7 +75,7 @@ const About = () => {
               </a>
               ,{" "}
               <a
-                className='text-cyan-300 cursor-pointer hover:underline'
+                className='text-cyan-400 cursor-pointer hover:underline'
                 href='https://www.corpulentprovocateur.cz/'
                 target='_blank'
               >
@@ -95,7 +83,7 @@ const About = () => {
               </a>{" "}
               a v poslední radě historický projekt jehož již nejsem součástí{" "}
               <a
-                className='text-cyan-300 cursor-pointer hover:underline'
+                className='text-cyan-400 cursor-pointer hover:underline'
                 href='https://www.gnomus.eu/ '
                 target='_blank'
               >
@@ -104,23 +92,25 @@ const About = () => {
               .
             </p>
             <br />
-            <p className='text-md md:text-xl'>
+            <p className='text-md mt-10 md:text-lg tracking-wider'>
               V březnu 2023 jsem ale vykročil jiným směrem. Začal jsem se
-              aktivně vzdělávat v oboru Web developmentu se snem pracovat s
-              technoligií React. <br />
+              aktivně vzdělávat v odvětví Web developmentu se snem pracovat jako
+              F<span className='text-cyan-400'>E</span> developer s technoligií
+              React. <br />
               Můj první kurz byl Foundations (HTML, CSS, vanilla JS) v rámci{" "}
               <a
                 href='https://www.theodinproject.com/'
                 target='_blank'
-                className='text-cyan-300  hover:underline '
+                className='text-cyan-400  hover:underline '
               >
                 the Odin Project
               </a>
-              , Full stack JS the Odin Project a React 18 od{" "}
+              , Full stack JS the Odin Project, Ultimate Typescript a React 18
+              od{" "}
               <a
                 href='https://codewithmosh.com/'
                 target='_blank'
-                className='text-cyan-300 hover:underline'
+                className='text-cyan-400 hover:underline'
               >
                 Code with Mosh
               </a>
