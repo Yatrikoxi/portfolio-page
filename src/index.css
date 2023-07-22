@@ -4,6 +4,18 @@
 @tailwind components;
 @tailwind utilities;
 
+.hero{
+  height: 100vh;
+}
+.about{
+  height: 100vh;
+}
+.contact{
+  height: 100vh;
+}
+.experience{
+  height: 100vh;
+}
 @layer base {
   html {
   font-family: 'Raleway', sans-serif;
