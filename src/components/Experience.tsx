@@ -54,13 +54,13 @@ const Experience = () => {
     },
     {
       id: 4,
-      name: "React",
-      image: react,
+      name: "Typescript",
+      image: ts,
     },
     {
       id: 5,
-      name: "Typescript",
-      image: ts,
+      name: "React",
+      image: react,
     },
     {
       id: 6,
@@ -72,8 +72,8 @@ const Experience = () => {
     <div className='experience w-full bg-gradient-to-b from-black via-black to-cyan-950 '>
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center items-start w-full h-full text-gray-100'>
         <div>
-          <div className='pb-8'>
-            <p className='text-5xl font-bold inline border-b-2 border-cyan-300'>
+          <div className='pb-0 md:pb-8'>
+            <p className='text-3xl md:text-5xl font-bold inline border-b-2 border-cyan-300'>
               Portfolio
             </p>
             <p className='py-4 text-gray-400'>Menší projekty</p>
@@ -115,8 +115,8 @@ const Experience = () => {
           </div>
         </div>
         <div className='max-w-screen-lg flex flex-col pt-4 justify-center w-full text-gray-100'>
-          <div className='py-6'>
-            <p className='text-5xl font-bold inline border-b-2 border-cyan-300'>
+          <div className='py-0 md:py-6'>
+            <p className='text-3xl md:text-5xl font-bold inline border-b-2 border-cyan-300'>
               Technologie
             </p>
             <p className='py-6 text-gray-400'>S čím jsem se zatím setkal.</p>

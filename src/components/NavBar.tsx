@@ -17,7 +17,7 @@ const NavBar = () => {
       link: "experience",
     },
     {
-      id: 3,
+      id: 4,
       name: "Kontakt",
       link: "contact",
     },
@@ -56,7 +56,7 @@ const NavBar = () => {
             </ul>
             <div className='flex gap-2 items-center md:hidden'>
               <p>Menu</p>
-              <div className='cursor-pointer z-10 pr-4  relative'>
+              <div className='cursor-pointer z-10 pr-4 relative'>
                 <Squash
                   toggled={nav}
                   toggle={setNav}

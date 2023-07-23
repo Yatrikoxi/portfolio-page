@@ -36,7 +36,7 @@ const Links = () => {
 
   return (
     <>
-      <div className='hidden lg:flex flex-col top-[40%] left-0 fixed '>
+      <div className='hidden xl:flex flex-col top-[40%] left-0 fixed '>
         <ul>
           {links.map(({ id, child, href, target }) => (
             <li

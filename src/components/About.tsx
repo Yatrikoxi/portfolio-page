@@ -46,10 +46,10 @@ const About = () => {
       <div className='about h-screen w-full bg-gradient-to-t from-black via-black to-cyan-950'>
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col w-full h-full justify-center'>
           <div className='pb-8 text-gray-300'>
-            <h2 className='text-gray-100 text-5xl font-bold inline border-b-2 border-cyan-400'>
+            <h2 className='text-gray-100 text-3xl md:text-5xl font-bold inline border-b-2 border-cyan-400'>
               O mně
             </h2>
-            <p className='text-md md:text-lg mt-20 tracking-wider'>
+            <p className='text-sm md:text-xl  mt-5 md:mt-20 tracking-wider'>
               Mé jméno je Tomáš Novák a do roku 2023 jsem se živil jako učitel
               hry na bicí nástroje v <br />
               ZUŠ Vysoké Mýto a aktivní muzikant. Díky projektům{" "}
@@ -64,7 +64,7 @@ const About = () => {
               organizace zájezdů. Dvakrát jsem doprovodil divadelní soubor do
               indického Delhi.
               <br /> Mimo výuku jsem zvládal také spolupráci s orchestry a
-              vlastní hudební projekty.
+              vlastní hudební projekty:
               <br />
               <a
                 className='text-cyan-400 cursor-pointer hover:underline'
@@ -92,11 +92,10 @@ const About = () => {
               .
             </p>
             <br />
-            <p className='text-md mt-10 md:text-lg tracking-wider'>
+            <p className='text-sm md:text-md mt-10 md:text-lg tracking-wider'>
               V březnu 2023 jsem ale vykročil jiným směrem. Začal jsem se
               aktivně vzdělávat v odvětví Web developmentu se snem pracovat jako
-              F<span className='text-cyan-400'>E</span> developer s technoligií
-              React. <br />
+              FE developer s technoligií React. <br />
               Můj první kurz byl Foundations (HTML, CSS, vanilla JS) v rámci{" "}
               <a
                 href='https://www.theodinproject.com/'
@@ -114,7 +113,7 @@ const About = () => {
               >
                 Code with Mosh
               </a>
-              . Poslední jsou stále aktuální.
+              . Poslední tři zmíněné stále studuji.
             </p>
           </div>
           <div className='hidden lg:flex flex-row justify-between'>
